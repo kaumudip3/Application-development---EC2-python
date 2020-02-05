@@ -1,0 +1,10 @@
+CREATE DATABASE user_db;
+USE user_db;
+mysql> CREATE TABLE reg_table(
+    -> uname VARCHAR(20) NOT NULL,
+    -> pword VARCHAR(20) NOT NULL,
+    -> fname VARCHAR(30),
+    -> lname VARCHAR(30),
+    -> email VARCHAR(50),
+    -> PRIMARY KEY(uname));
+Query OK, 0 rows affected (0.07 sec)

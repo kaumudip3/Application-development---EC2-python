@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html><head>
+<style>
+h1 {
+  color: blue;
+  font-family: verdana;
+
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background:#ADD8E6;
+  margin: 0 auto 0 auto;
+  width:100%;
+  text-align:center;
+  margin: 20px 0px 20px 0px;
+}
+.b1{
+  background:white;
+  width:300px;
+  border-radius:6px;
+  margin: 0 auto 0 auto;
+  padding:0px 0px 70px 0px;
+  border: #2980b9 4px solid;
+}
+
+.user
+{
+  border: #ccc 1px solid;
+  padding: 8px;
+  width:250px;
+  color:#AAAAAA;
+  margin-top:10px;
+  font-size:1em;
+  border-radius:4px;
+}
+
+.button {
+  border: none;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width:150px;
+  margin: 4px 2px;
+  cursor: pointer;
+                     
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+</style>
+
+
+<form method="post" action="">
+<div class="b1">
+<h1> Login </h1>
+<title>User Login</title>
+
+<input type="text" name="user" value="Username"
+onblur="field_blur(this,'user');" class="user"/>
+<div></div>
+
+<input type="password" name="password" value="password"
+onblur="field_blur(this,'user');" class="user"/>
+<div class="msg">{{msg }}</div>
+<div>
+<button type = "submit" class="button b1" name="btn" value="login"> Login</button>
+<button type = "submit" class="button b2" name="btn" value="register"> New User</button>
+</div>
+</div>
+</form>
+</head>
+</html>

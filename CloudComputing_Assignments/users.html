@@ -1,0 +1,17 @@
+<html>
+        <table border =1>
+                {%for user in userdata %}
+                <tr>
+                        <td>{{user[0]}}</td>
+                        <td>{{user[2]}}</td>
+                        <td>{{user[3]}}</td>
+                        <td>{{user[4]}}</td>
+                </tr>
+                {% endfor %}
+        </table>
+</html>
+<form>
+        <button type="submit" class="button" name="btn" value="fileupload" >File Upload</button>
+        <button type="submit" class="button b1" name='btn' value="logout"> Logout</button>
+   </form>
+</html>
