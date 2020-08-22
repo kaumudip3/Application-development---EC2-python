@@ -8,10 +8,7 @@ using namespace std;
 
 // ----------------------
 // GROUP 10 : 
-// Kaumudi
-// Madhumati
-// Nishtha
-// Sandeep
+// Kaumudi Patil
 // -----------
 // RSA Algorithm
 // Input : 
